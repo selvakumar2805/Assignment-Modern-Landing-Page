@@ -1,0 +1,172 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(13, 0, 255);
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+    color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #f58d71;
+}
+
+.shadow-on-hover {
+    transition: all 0.2s;
+    border-radius: 0px;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.btn {
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.btn-brand {
+    color: #ffff;
+    font-weight: 600;
+    border-color: #ed4c20;
+    background-color: #f3400f;
+}
+
+.btn-brand:hover {
+    border-color: #df3809;
+    background-color: #df3809;
+    color: #ffff;
+}
+
+.bg-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Project-03/slide2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heroslider h6::after,
+#heroslider h6::before {
+    content: "";
+    width: 40px;
+    width: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+/* About */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #f58d17;
+}
+
+/* Intro Text */
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #f58d17;
+    color: #ffffff;
+}
+
+.menu-item .stars {
+    color: #f58d17;
+}
+
+image {
+    justify-content: center;
+}
+
+#feature {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(foods.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feature {
+    border: 2px solid rgb(255, 255, 255, 0.2);
+}
+
+.feature .feature-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f58d17;
+    color: #fff;
+    font-size: 28px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(pasta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-links {
+    justify-content: center;
+    display: flex;
+}
